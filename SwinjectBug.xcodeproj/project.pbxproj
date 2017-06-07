@@ -43,8 +43,6 @@
 /* Begin PBXFileReference section */
 		017B800B1E14C940007590C3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		019099ED1E08165B002CBE72 /* SwinjectBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwinjectBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		01F01FF81E0820C5008DF6D4 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Pods/../build/Debug-iphoneos/Quick/Quick.framework"; sourceTree = "<group>"; };
-		01F01FFA1E0820D4008DF6D4 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Pods/../build/Debug-iphoneos/Nimble/Nimble.framework"; sourceTree = "<group>"; };
 		0D03F67D1EE8415B00479AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D03F67E1EE8415B00479AE1 /* DependencyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyManager.swift; sourceTree = "<group>"; };
 		0D03F6801EE8415B00479AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,12 +75,10 @@
 		0D03F6AA1EE8415B00479AE1 /* Info-Staging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Staging.plist"; sourceTree = "<group>"; };
 		1DC25ACC1A5867A581CCE0E2 /* Pods-SwinjectBug.stagingrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwinjectBug.stagingrelease.xcconfig"; path = "Pods/Target Support Files/Pods-SwinjectBug/Pods-SwinjectBug.stagingrelease.xcconfig"; sourceTree = "<group>"; };
 		21D51ABC4E8DE878A04EC4B7 /* Pods-SwinjectBug.stagingdebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwinjectBug.stagingdebug.xcconfig"; path = "Pods/Target Support Files/Pods-SwinjectBug/Pods-SwinjectBug.stagingdebug.xcconfig"; sourceTree = "<group>"; };
-		857026CE1E59ECE300FA266D /* BrightcovePlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightcovePlayerSDK.framework; path = "Pods/Brightcove-Player-SDK/ios/static/BrightcovePlayerSDK.framework"; sourceTree = "<group>"; };
 		85A6ED011E59D3990067D1DF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		85A6ED031E59D3A00067D1DF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		85A6ED051E59D3A70067D1DF /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		8BA5CECC6622AFBAA913EE61 /* Pods_SwinjectBug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwinjectBug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		95E12A361EB4CB060045FED6 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Pods/../build/Debug-iphoneos/Quick/Quick.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,16 +271,10 @@
 		D2198099DEF45FF87C7AF8DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				95E12A361EB4CB060045FED6 /* Quick.framework */,
-				857026CE1E59ECE300FA266D /* BrightcovePlayerSDK.framework */,
 				85A6ED051E59D3A70067D1DF /* SafariServices.framework */,
 				85A6ED031E59D3A00067D1DF /* CoreMotion.framework */,
 				85A6ED011E59D3990067D1DF /* GLKit.framework */,
-				956AC4821E3C6AF500E2C5DC /* Alamofire.framework */,
-				956AC4801E3C6AF200E2C5DC /* Moya.framework */,
 				017B800B1E14C940007590C3 /* XCTest.framework */,
-				01F01FFA1E0820D4008DF6D4 /* Nimble.framework */,
-				01F01FF81E0820C5008DF6D4 /* Quick.framework */,
 				8BA5CECC6622AFBAA913EE61 /* Pods_SwinjectBug.framework */,
 			);
 			name = Frameworks;
