@@ -1,0 +1,3 @@
+protocol BaseModuleInteractorOutput: class {
+    
+}

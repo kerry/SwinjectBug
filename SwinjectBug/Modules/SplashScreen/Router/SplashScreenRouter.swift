@@ -1,0 +1,3 @@
+class SplashScreenRouter: BaseModuleRouter, SplashScreenRouterInput {
+    
+}
