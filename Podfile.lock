@@ -2,11 +2,21 @@ PODS:
   - Swinject (2.1.0)
 
 DEPENDENCIES:
-  - Swinject (~> 2.1.0)
+  - Swinject (from `https://github.com/Swinject/Swinject.git`, branch `swift4`)
+
+EXTERNAL SOURCES:
+  Swinject:
+    :branch: swift4
+    :git: https://github.com/Swinject/Swinject.git
+
+CHECKOUT OPTIONS:
+  Swinject:
+    :commit: 4b3d047cd6745a276d20e5e2fe6ded7fd6b4454e
+    :git: https://github.com/Swinject/Swinject.git
 
 SPEC CHECKSUMS:
-  Swinject: 85e468ac75c5c2d234076f98c591d57d56bc64bc
+  Swinject: 4793342bed1bed528c7e97d5bae3e7a60e3bdcac
 
-PODFILE CHECKSUM: f9cc8c2cfe8e1a65310291bf84b027a311b75f3d
+PODFILE CHECKSUM: 83c98547bac49922e7de4478508fd922630b4b09
 
 COCOAPODS: 1.1.1

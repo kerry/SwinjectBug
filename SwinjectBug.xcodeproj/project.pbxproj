@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05EF165DA2CFC74D771D0C4A /* Pods_SwinjectBug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C34FE981FD2866B05CCFB7 /* Pods_SwinjectBug.framework */; };
 		0D03F6AB1EE8415B00479AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F67D1EE8415B00479AE1 /* AppDelegate.swift */; };
 		0D03F6AC1EE8415B00479AE1 /* DependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F67E1EE8415B00479AE1 /* DependencyManager.swift */; };
 		0D03F6AD1EE8415B00479AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D03F67F1EE8415B00479AE1 /* LaunchScreen.storyboard */; };
@@ -37,7 +38,6 @@
 		0D03F6C61EE8415B00479AE1 /* SplashScreenViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D03F6A71EE8415B00479AE1 /* SplashScreenViewOutput.swift */; };
 		0D03F6C71EE8415B00479AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D03F6A91EE8415B00479AE1 /* Assets.xcassets */; };
 		0D03F6C81EE8415B00479AE1 /* Info-Staging.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D03F6AA1EE8415B00479AE1 /* Info-Staging.plist */; };
-		51AA3E855499661D42CC8436 /* Pods_SwinjectBug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA5CECC6622AFBAA913EE61 /* Pods_SwinjectBug.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,12 +73,12 @@
 		0D03F6A71EE8415B00479AE1 /* SplashScreenViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewOutput.swift; sourceTree = "<group>"; };
 		0D03F6A91EE8415B00479AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D03F6AA1EE8415B00479AE1 /* Info-Staging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Staging.plist"; sourceTree = "<group>"; };
-		1DC25ACC1A5867A581CCE0E2 /* Pods-SwinjectBug.stagingrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwinjectBug.stagingrelease.xcconfig"; path = "Pods/Target Support Files/Pods-SwinjectBug/Pods-SwinjectBug.stagingrelease.xcconfig"; sourceTree = "<group>"; };
-		21D51ABC4E8DE878A04EC4B7 /* Pods-SwinjectBug.stagingdebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwinjectBug.stagingdebug.xcconfig"; path = "Pods/Target Support Files/Pods-SwinjectBug/Pods-SwinjectBug.stagingdebug.xcconfig"; sourceTree = "<group>"; };
+		299E0194F277301949B92341 /* Pods-SwinjectBug.stagingdebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwinjectBug.stagingdebug.xcconfig"; path = "Pods/Target Support Files/Pods-SwinjectBug/Pods-SwinjectBug.stagingdebug.xcconfig"; sourceTree = "<group>"; };
 		85A6ED011E59D3990067D1DF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		85A6ED031E59D3A00067D1DF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		85A6ED051E59D3A70067D1DF /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
-		8BA5CECC6622AFBAA913EE61 /* Pods_SwinjectBug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwinjectBug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C34FE981FD2866B05CCFB7 /* Pods_SwinjectBug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwinjectBug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BFE40EF7220BF3BA116A8E /* Pods-SwinjectBug.stagingrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwinjectBug.stagingrelease.xcconfig"; path = "Pods/Target Support Files/Pods-SwinjectBug/Pods-SwinjectBug.stagingrelease.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51AA3E855499661D42CC8436 /* Pods_SwinjectBug.framework in Frameworks */,
+				05EF165DA2CFC74D771D0C4A /* Pods_SwinjectBug.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 				0D03F67B1EE8415B00479AE1 /* SwinjectBug */,
 				019099EE1E08165B002CBE72 /* Products */,
 				D2198099DEF45FF87C7AF8DD /* Frameworks */,
-				F07D7BA587A2DC2DC9BF81ED /* Pods */,
+				E2097520F626223F6FF4597C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -275,16 +275,16 @@
 				85A6ED031E59D3A00067D1DF /* CoreMotion.framework */,
 				85A6ED011E59D3990067D1DF /* GLKit.framework */,
 				017B800B1E14C940007590C3 /* XCTest.framework */,
-				8BA5CECC6622AFBAA913EE61 /* Pods_SwinjectBug.framework */,
+				87C34FE981FD2866B05CCFB7 /* Pods_SwinjectBug.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F07D7BA587A2DC2DC9BF81ED /* Pods */ = {
+		E2097520F626223F6FF4597C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				21D51ABC4E8DE878A04EC4B7 /* Pods-SwinjectBug.stagingdebug.xcconfig */,
-				1DC25ACC1A5867A581CCE0E2 /* Pods-SwinjectBug.stagingrelease.xcconfig */,
+				299E0194F277301949B92341 /* Pods-SwinjectBug.stagingdebug.xcconfig */,
+				C7BFE40EF7220BF3BA116A8E /* Pods-SwinjectBug.stagingrelease.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -296,12 +296,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01909A151E08165B002CBE72 /* Build configuration list for PBXNativeTarget "SwinjectBug" */;
 			buildPhases = (
-				4DB763CF1934E5A25370BFAE /* [CP] Check Pods Manifest.lock */,
+				778D96D9FE25A7162EDAD76A /* [CP] Check Pods Manifest.lock */,
 				019099E91E08165B002CBE72 /* Sources */,
 				019099EA1E08165B002CBE72 /* Frameworks */,
 				019099EB1E08165B002CBE72 /* Resources */,
-				9B161967C3442F854BD99F41 /* [CP] Embed Pods Frameworks */,
-				7BDFD9CC0331A8D5EA54C7E3 /* [CP] Copy Pods Resources */,
+				13645987003906EA53D06DE3 /* [CP] Embed Pods Frameworks */,
+				CB5DEF50E9A64CD21E2B3886 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -368,7 +368,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4DB763CF1934E5A25370BFAE /* [CP] Check Pods Manifest.lock */ = {
+		13645987003906EA53D06DE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwinjectBug/Pods-SwinjectBug-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		778D96D9FE25A7162EDAD76A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,7 +398,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		7BDFD9CC0331A8D5EA54C7E3 /* [CP] Copy Pods Resources */ = {
+		CB5DEF50E9A64CD21E2B3886 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,21 +411,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwinjectBug/Pods-SwinjectBug-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9B161967C3442F854BD99F41 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwinjectBug/Pods-SwinjectBug-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -520,7 +520,7 @@
 		};
 		0D6C79C41E657F8200DA0536 /* StagingRelease */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DC25ACC1A5867A581CCE0E2 /* Pods-SwinjectBug.stagingrelease.xcconfig */;
+			baseConfigurationReference = C7BFE40EF7220BF3BA116A8E /* Pods-SwinjectBug.stagingrelease.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ARCHS = arm64;
@@ -606,7 +606,7 @@
 		};
 		C9CA78EB1E6730C2000AF879 /* StagingDebug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21D51ABC4E8DE878A04EC4B7 /* Pods-SwinjectBug.stagingdebug.xcconfig */;
+			baseConfigurationReference = 299E0194F277301949B92341 /* Pods-SwinjectBug.stagingdebug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ARCHS = arm64;

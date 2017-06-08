@@ -3,7 +3,7 @@ platform :ios, '9.0'
 
 # Our Libraries
 def libraries
-    pod 'Swinject', '~> 2.1.0'
+    pod 'Swinject', :git => 'https://github.com/Swinject/Swinject.git', :branch => 'swift4'
 end
 
 target 'SwinjectBug' do
