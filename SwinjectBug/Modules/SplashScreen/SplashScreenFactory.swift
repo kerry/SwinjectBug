@@ -10,9 +10,9 @@ class SplashScreenFactory: Assembly {
                 }
                 .initCompleted { r, p in
                     let presenter = p as! SplashScreenPresenter
-                    presenter.view = r.resolve(SplashScreenViewInput.self)
-                    presenter.router = r.resolve(SplashScreenRouterInput.self)
-                    presenter.interactor = r.resolve(SplashScreenInteractorInput.self)
+                    presenter.view = r.resolve(SplashScreenViewInput.self) as! SplashScreenViewController
+                    presenter.router = r.resolve(SplashScreenRouterInput.self) as! SplashScreenRouter
+                    presenter.interactor = r.resolve(SplashScreenInteractorInput.self) as! SplashScreenInteractor
 
                     _ = r.resolve(BaseModule.self, arguments: presenter as BaseModulePresenter, presenter.interactor as! BaseModuleInteractor, presenter.router as! BaseModuleRouter, presenter.view as! BaseModuleViewController)
                 }
@@ -22,7 +22,7 @@ class SplashScreenFactory: Assembly {
                 }
                 .initCompleted { r, v in
                     let vc = v as! SplashScreenViewController
-                    vc.output = r.resolve(SplashScreenViewOutput.self)
+                    vc.output = r.resolve(SplashScreenViewOutput.self) as! SplashScreenPresenter
                 }
 
         container.register(SplashScreenViewOutput.self) { r in
@@ -42,7 +42,7 @@ class SplashScreenFactory: Assembly {
                 }
                 .initCompleted { r, i in
                     let interactor = i as! SplashScreenInteractor
-                    interactor.output = r.resolve(SplashScreenInteractorOutput.self)
+                    interactor.output = r.resolve(SplashScreenInteractorOutput.self) as! SplashScreenPresenter
                 }
 
         container.register(SplashScreenInteractorOutput.self) { r in
